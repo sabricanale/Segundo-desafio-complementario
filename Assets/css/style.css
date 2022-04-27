@@ -1,0 +1,48 @@
+body{
+    font-family: "Josefin Sans";
+}
+.navbar{
+
+background-color: white !important; 
+}
+
+footer{
+    min-height: 100px;
+}
+
+footer p{
+    text-align: center;
+}    
+
+#iconos i{
+    font-size: 20px;
+    padding: 0 8px;
+
+} 
+
+
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+        }
+
+@media (max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
+@media (min-width:992px){
+    .collapse{
+        display: flex;
+        justify-content: end !important;
+    }
+}
+
