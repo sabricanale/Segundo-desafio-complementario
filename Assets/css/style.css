@@ -41,7 +41,7 @@ footer p{
 
 @keyframes mianimacion {
   
-    0{background-color: gray;}
+    0%{background-color: gray;}
     50%{background-color: pink; color:black}
     100%{background-color: gray;}
 
