@@ -19,6 +19,35 @@ footer p{
     padding: 0 8px;
 
 } 
+#titulo{
+    transform:rotateY(360deg);
+    transition: transform 5s;
+    animation-delay: 2s;   
+}
+
+
+
+.btn{
+    width: auto;
+    height: auto;
+    background-color: gray;
+    color:white;
+    animation-name: mianimacion;
+    animation-duration:5s;
+    animation-delay: 2s;
+    position: relative;
+}
+
+
+@keyframes mianimacion {
+  
+    0{background-color: gray;}
+    50%{background-color: pink; color:black}
+    100%{background-color: gray;}
+
+}
+
+
 
 
 @media (max-width:768px){
